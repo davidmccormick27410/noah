@@ -1,0 +1,23 @@
+{
+  "name": "noah",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devserver": "live-server --browser=firefox";
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidmccormick27410/noah.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidmccormick27410/noah/issues"
+  },
+  "homepage": "https://github.com/davidmccormick27410/noah#readme",
+  "dependencies": {
+    "devserver": "^0.2.5"
+  }
+}
