@@ -1,0 +1,22 @@
+.toc {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+
+.toc {
+  background-color: #f7f7f7; }
+
+.design {
+  background-color: #eee; }
+
+.art_direction {
+  background-color: #f7f7f7; }
+
+.set_decoration {
+  background-color: #eee; }
+
+.pre-visualization {
+  background-color: #f7f7f7; }
+
+.about {
+  background-color: #eee; }
