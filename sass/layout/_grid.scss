@@ -1,5 +1,32 @@
 .toc {
-  display: flex;
-  flex-direction: column;  
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
 }
+
+.design {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+}
+
+.art_direction {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+}
+
+.set_decoration {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+}
+
+.pre-visualization {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+  
+}
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+  
+}
+

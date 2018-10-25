@@ -1,22 +1,98 @@
 .toc {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap; }
-
-.toc {
-  background-color: #f7f7f7; }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
 
 .design {
-  background-color: #eee; }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
 
 .art_direction {
-  background-color: #f7f7f7; }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
 
 .set_decoration {
-  background-color: #eee; }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
 
 .pre-visualization {
-  background-color: #f7f7f7; }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
 
 .about {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
+
+.toc {
+  margin: 0 -10px;
+  padding: 0;
+  list-style: none;
+  background-color: #f7f7f7; }
+  .toc li {
+    background-color: #f4fce3;
+    border: 1px solid #d8f5a2;
+    margin: 0 10px 20px 10px;
+    padding: 10px;
+    border-radius: 5px; }
+
+.design {
+  margin: 0 -10px;
+  padding: 0;
+  list-style: none;
   background-color: #eee; }
+  .design__films {
+    background-color: #f4fce3;
+    border: 1px solid #d8f5a2;
+    margin: 0 10px 20px 10px;
+    padding: 10px;
+    border-radius: 5px; }
+
+.art_direction {
+  margin: 0 -10px;
+  padding: 0;
+  list-style: none;
+  background-color: #f7f7f7; }
+  .art_direction__films {
+    background-color: #f4fce3;
+    border: 1px solid #d8f5a2;
+    margin: 0 10px 20px 10px;
+    padding: 10px;
+    border-radius: 5px; }
+
+.set_decoration {
+  margin: 0 -10px;
+  padding: 0;
+  list-style: none;
+  background-color: #eee; }
+  .set_decoration__films {
+    background-color: #f4fce3;
+    border: 1px solid #d8f5a2;
+    margin: 0 10px 20px 10px;
+    padding: 10px;
+    border-radius: 5px; }
+
+.pre-visualization {
+  margin: 0 -10px;
+  padding: 0;
+  list-style: none;
+  background-color: #f7f7f7; }
+  .pre-visualization__work {
+    background-color: #f4fce3;
+    border: 1px solid #d8f5a2;
+    margin: 0 10px 20px 10px;
+    padding: 10px;
+    border-radius: 5px; }
+
+.about {
+  margin: 0 -10px;
+  padding: 0;
+  list-style: none;
+  background-color: #eee; }
+  .about__items {
+    background-color: #f4fce3;
+    border: 1px solid #d8f5a2;
+    margin: 0 10px 20px 10px;
+    padding: 10px;
+    border-radius: 5px; }
+
+ul {
+  list-style: none; }

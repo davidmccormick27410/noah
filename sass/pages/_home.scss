@@ -1,23 +1,95 @@
+
+
 .toc {
+  margin: 0 -10px;
+  padding: 0;
+  list-style: none;
+  background-color: $color-grey-light-1;
 
-    background-color: $color-grey-light-1;
+  li {
+    background-color: #f4fce3;
+    border: 1px solid #d8f5a2;
+    margin: 0 10px 20px 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
 }
+
 .design {
-    background-color: $color-grey-light-2;
+  margin: 0 -10px;
+  padding: 0;
+  list-style: none;
+  background-color: $color-grey-light-2;
 
+  &__films {
+    background-color: #f4fce3;
+    border: 1px solid #d8f5a2;
+    margin: 0 10px 20px 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
 }
+
 .art_direction {
-    background-color: $color-grey-light-1;
+  margin: 0 -10px;
+  padding: 0;
+  list-style: none;
+  background-color: $color-grey-light-1;
 
+  &__films {
+    background-color: #f4fce3;
+    border: 1px solid #d8f5a2;
+    margin: 0 10px 20px 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
 }
+
 .set_decoration {
-    background-color: $color-grey-light-2;
+  margin: 0 -10px;
+  padding: 0;
+  list-style: none;
+  background-color: $color-grey-light-2;
 
+  &__films {
+    background-color: #f4fce3;
+    border: 1px solid #d8f5a2;
+    margin: 0 10px 20px 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
 }
+
 .pre-visualization {
-    background-color: $color-grey-light-1;
+  margin: 0 -10px;
+  padding: 0;
+  list-style: none;
+  background-color: $color-grey-light-1;
 
+  &__work {
+    background-color: #f4fce3;
+    border: 1px solid #d8f5a2;
+    margin: 0 10px 20px 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
 }
+
 .about {
-    background-color: $color-grey-light-2;
+  margin: 0 -10px;
+  padding: 0;
+  list-style: none;
+  background-color: $color-grey-light-2;
+
+  &__items {
+    background-color: #f4fce3;
+    border: 1px solid #d8f5a2;
+    margin: 0 10px 20px 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+}
+
+ul {
+  list-style: none;
 }
