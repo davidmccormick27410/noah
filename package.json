@@ -19,5 +19,8 @@
   "homepage": "https://github.com/davidmccormick27410/noah#readme",
   "dependencies": {
     "devserver": "^0.2.5"
+  },
+  "devDependencies": {
+    "handlebars": "^4.0.12"
   }
 }
